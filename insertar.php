@@ -2,7 +2,7 @@
 include 'db.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $id =
+    //$id =
     $nombre = $_POST["nombre"];
     $email = $_POST["email"];
     $contrasenha = $_POST["contrasenha"];
